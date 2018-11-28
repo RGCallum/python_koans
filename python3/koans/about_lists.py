@@ -104,5 +104,5 @@ class AboutLists(Koan):
         self.assertEqual([2, 'last'], queue)
 
         # Note, popping from the left hand side of a list is
-        # inefficient. Use collections.deque instead.
+        # inefficient. Use collections.queue instead.
 
